@@ -22,6 +22,9 @@ docker compose up -d
 </ossec_config>
 ```
 
+# CVE Update
+https://documentation.wazuh.com/current/user-manual/capabilities/vulnerability-detection/offline-update.html
+
 # dashboard
 kibanaserver / kibanaserver
 
