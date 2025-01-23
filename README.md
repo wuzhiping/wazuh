@@ -7,6 +7,20 @@ docker compose up -d
 #docker compose down -v
 ```
 
+# webhook 
+https://documentation.wazuh.com/current/user-manual/manager/integration-with-external-apis.html
+```code
+- ./config/wazuh_indexer/internal_users.yml:/usr/share/wazuh-indexer/opensearch-security/internal_users.yml
+
+  <integration>
+    <name>slack</name>
+    <hook_url>https://abc.sample.com/oauth2/ip</hook_url>
+    <level>10</level>
+    <alert_format>json</alert_format>
+  </integration>
+</ossec_config>
+```
+
 # dashboard
 kibanaserver / kibanaserver
 
