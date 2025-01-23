@@ -8,8 +8,8 @@ docker compose up -d
 ```
 
 # webhook 
-## https://documentation.wazuh.com/current/user-manual/manager/integration-with-external-apis.html
-## /app/notifications-dashboards#/channels
+### https://documentation.wazuh.com/current/user-manual/manager/integration-with-external-apis.html
+### /app/notifications-dashboards#/channels
 ```code
 - ./config/wazuh_indexer/internal_users.yml:/usr/share/wazuh-indexer/opensearch-security/internal_users.yml
 
