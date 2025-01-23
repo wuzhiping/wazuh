@@ -27,9 +27,12 @@ https://www.opencve.io/
 # CVE Update
 https://documentation.wazuh.com/current/user-manual/capabilities/vulnerability-detection/offline-update.html
 
-# dashboard
+# Dashboard
 kibanaserver / kibanaserver
 
 # Agent client
 ## https://documentation.wazuh.com/current/installation-guide/wazuh-agent/index.html
 ## Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.10.1-1.msi -OutFile $env:tmp\wazuh-agent; msiexec.exe /i $env:tmp\wazuh-agent /q WAZUH_MANAGER='10.17.1.26'
+
+# AIops
+https://www.keephq.dev/
