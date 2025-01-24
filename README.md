@@ -28,6 +28,7 @@ https://www.opencve.io/
 https://documentation.wazuh.com/current/user-manual/capabilities/vulnerability-detection/offline-update.html
 
 # Dashboard
+admin / SecretPassword
 kibanaserver / kibanaserver
 
 # Agent client
